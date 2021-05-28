@@ -19,10 +19,18 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45adae2-3d97-40f8-9fe5-25d8ac01b960" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/advanced/module4/notes-app/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/module4/notes-app/notes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/advanced/module4/notes-app/notes.json" afterDir="false" />
+    <list default="true" id="e45adae2-3d97-40f8-9fe5-25d8ac01b960" name="Default Changelist" comment="add app with json write read">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/notes-app/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/notes-app/notes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/notes-app/notes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/notes-app/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/notes-app/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/playground/1-json.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/n3-04-06-adding-note/playground/1-json.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/notes-app/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/module4/notes-app/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/notes-app/notes.js" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/module4/notes-app/notes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced/module4/notes-app/notes.json" beforeDir="false" afterPath="$PROJECT_DIR$/advanced/module4/notes-app/notes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +67,11 @@
       <recent name="C:\Users\User\WebstormProjects\js-learning" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.notes.js">
+  <component name="RunManager" selected="Node.js.a.js">
     <configuration name="Task1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/advanced/module4/Task1.js" working-dir="$PROJECT_DIR$/advanced/module4">
+      <method v="2" />
+    </configuration>
+    <configuration name="a.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/advanced/module4/notes-app/a.js" working-dir="$PROJECT_DIR$/advanced/module4/notes-app">
       <method v="2" />
     </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/advanced/module4/notes-app/app.js" working-dir="$PROJECT_DIR$/advanced/module4/notes-app">
@@ -71,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.a.js" />
         <item itemvalue="Node.js.notes.js" />
         <item itemvalue="Node.js.app.js" />
         <item itemvalue="Node.js.Task1.js" />
@@ -88,7 +100,16 @@
       <workItem from="1622012219820" duration="3314000" />
       <workItem from="1622018097236" duration="1848000" />
       <workItem from="1622116082432" duration="10327000" />
+      <workItem from="1622189272387" duration="10378000" />
     </task>
+    <task id="LOCAL-00001" summary="add app with json write read">
+      <created>1622189515223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1622189515223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,6 +125,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add app with json write read" />
+    <option name="LAST_COMMIT_MESSAGE" value="add app with json write read" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2143" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1622117205516">
@@ -118,22 +144,22 @@
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state x="2501" y="117" key="Github.UntrackedFilesDialog/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622015468222" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1622133613336">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1622209314568">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622133613336" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1622133613336">
+    <state width="1515" height="210" key="GridCell.Tab.0.bottom/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622209314568" />
+    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1622209314568">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622133613336" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1622133613326">
+    <state width="1515" height="210" key="GridCell.Tab.0.center/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622209314568" />
+    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1622209314567">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622133613326" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1622133613336">
+    <state width="1515" height="210" key="GridCell.Tab.0.left/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622209314567" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1622209314568">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622133613336" />
+    <state width="1515" height="210" key="GridCell.Tab.0.right/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622209314568" />
     <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1622133613338">
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
@@ -182,5 +208,9 @@
       <screen x="1920" y="0" width="1536" height="832" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.3.right/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622133613347" />
+    <state x="2281" y="145" key="Vcs.Push.Dialog.v2" timestamp="1622189529524">
+      <screen x="1920" y="0" width="1536" height="832" />
+    </state>
+    <state x="2281" y="145" key="Vcs.Push.Dialog.v2/1920.0.1536.832/0.0.1920.1040@1920.0.1536.832" timestamp="1622189529524" />
   </component>
 </project>

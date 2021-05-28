@@ -9,9 +9,24 @@
 *modules.xml
 *misc.xml
 .xml
+.idea/*
+/node_modules/
+.env
+/src/parse/screenshots/*
+
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
 
 ## Directory-based project format:
-../.idea/
+/.idea/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:

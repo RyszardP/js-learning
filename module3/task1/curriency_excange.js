@@ -12,5 +12,5 @@ let officialRate = response.body.Cur_OfficialRate;
 console.log(officialRate);
 });
 }
-
+ 
 showCurrent(url);

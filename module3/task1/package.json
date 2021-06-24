@@ -4,6 +4,7 @@
   "description": "",
   "main": "curriency_excange.js",
   "dependencies": {
+    "apollo-utilities": "^1.3.4",
     "request": "^2.88.2"
   },
   "devDependencies": {},

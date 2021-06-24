@@ -1,15 +1,19 @@
 {
   "name": "task3",
   "version": "1.0.0",
-  "description": "",
   "main": "Boy.js",
   "scripts": {
-    "test": "jest --watchAll --coverage --verbose --silent --runInBand"
+    "test": "jest --watchAll --coverage --silent --runInBand"
   },
   "author": "",
- 
   "license": "ISC",
   "devDependencies": {
-    "jest": "^23.6.0"
-  }
+    "jest": "^27.0.4"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
 }

@@ -4,13 +4,13 @@
 *modules.xml
 *misc.xml
 .xml
+*.tmp.
 .idea/*
-/node_modules/*
+/node_modules/
 .env
 /src/parse/screenshots/*
 
 ./*.*/node_modules/
-./*.*/node_modules/*
 
 .vscode/*
 !.vscode/settings.json

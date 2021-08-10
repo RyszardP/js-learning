@@ -5,10 +5,13 @@
 *misc.xml
 .xml
 *.tmp.
+tmp.*
 .idea/*
 /node_modules/
 .env
 /src/parse/screenshots/*
+/reporting
+/reports
 
 ./*.*/node_modules/
 

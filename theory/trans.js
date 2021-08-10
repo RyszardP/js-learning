@@ -22,9 +22,33 @@
 // console.log(undefined == undefined);
 // console.log(null == undefined);
 
-const a = [1, 2] + 'jiob';
-console.log(a)
+// const a = [1, 2] + 'jiob';
+// console.log(a)
 
-let b = [];
-b[1000000000] = 3
-console.log(b)
+// let b = [];
+// b[1000000000] = 3
+// console.log(b)
+
+console.log(3 - "1")
+console.log(+ "1")
+console.log("1"+ 2)
+console.log("hi"+ 2)
+console.log(+"hi")
+console.log(-"hi")
+
+// console.log(null + undefined)
+// console.log(null + 1)
+// console.log(null + "s")
+// console.log(null + "123")
+
+// console.log(undefined + "s")
+// console.log(undefined + 123)
+
+// console.log(null + true)
+// console.log(undefined + true)
+// console.log(false + true)
+//  console.log(null + null)
+// console.log(undefined + undefined)
+// console.log(true * true)
+// console.log(true / false)
+

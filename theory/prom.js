@@ -22,7 +22,7 @@ const min = 1
 //     );
 
 let promiseFirst = new Promise((resolve, reject) => {
-    if (max > min) {
+    if (max < min) {
         resolve("promiseFirst");
     } else {
         reject("no promiseFirst :( , false");
@@ -38,22 +38,22 @@ let promiseSecond = new Promise((resolve, reject) => {
 });
 
 let promiseThird = new Promise((resolve, reject) => {
-    if (max < min) {
+    if (max > min) {
         resolve("promiseThird");
     } else {
         reject("no promiseThird :( , false");
     }
 });
 
-// let askValues = function () {
-//     promiseFirst
-//         .then(function (fulfilled) {
-//             console.log(fulfilled);
-//         })
-//         .catch(function (error) {
-//             console.log(error.message);
-//         });
-// };
+let askValues = function () {
+    promiseFirst
+        .then(function (fulfilled) {
+            console.log(fulfilled);
+        })
+        .catch(function (error) {
+            console.log(error.message);
+        });
+};
 
 // askValues();
 
@@ -70,7 +70,7 @@ let promiseThird = new Promise((resolve, reject) => {
 //     console.log(reason)
 //   });
 
-// Promise.race([promiseFirst, promiseSecond, promiseThird]).then(value => {
+// Promise.race([ promiseFirst, promiseSecond, promiseThird]).then(value => {
 //     console.log(value);
 // }, reason => {
 //     console.log(reason)
@@ -82,8 +82,21 @@ let promiseThird = new Promise((resolve, reject) => {
 //     console.log(reason)
 // });
 
-Promise.resolve([promiseFirst, promiseSecond, promiseThird]).then(value => {
-    console.log(value);
-}, reason => {
-    console.log(reason)
-});
+// Promise.resolve([promiseFirst, promiseSecond, promiseThird]).then(value => {
+//     console.log(value);
+// }, reason => {
+//     console.log(reason)
+// });
+
+
+// const prom = new Promise(function (resolve) {
+//     setTimeout(() => resolve('12'), 2000);
+// });
+// prom.then(
+//     result => result - 4, // выведет "done!" через одну секунду
+//    // error => console.log(error) // не будет запущена
+// ).then(
+//     result => result - 3, // выведет "done!" через одну секунду
+// ).then(
+//     result => console.log(result - 6) // выведет "done!" через одну секунду
+// );

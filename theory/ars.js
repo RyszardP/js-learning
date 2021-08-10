@@ -2,14 +2,14 @@ let arr = ["Tad", "Bundy"];
 let numbers = [8, 5, 1, 7, 6, 9, 2];
 //let a = arr.indexOf("Tad");
 //console.log(a);
-console.log(numbers);
+// console.log(numbers);
 
-numbers.reverse();
-console.log(numbers);
+// numbers.reverse();
+// console.log(numbers);
 
-str = "sdfs184jd7sj38djaosd8j4id"
-let splitted = str.split(4);
-console.log(splitted);
+// str = "sdfs184jd7sj38djaosd8j4id"
+// let splitted = str.split(4);
+// console.log(splitted);
 //numbers.sort();
 //console.log(numbers);
 // arr.push(3);
@@ -18,10 +18,15 @@ console.log(splitted);
 
 // arr.pop();
 
-// console.log(arr);
-// arr.push(3);
-
-// console.log(arr);
+console.log(arr);
+for(let i = 0; i < 1_000_000; i++){
+arr.push(3);
+}
+console.log(arr);
+arr.shift(1)
+console.log(arr);
+arr.unshift("арбуз");
+ console.log(arr);
 
 // arr.shift();
 // console.log(arr);
